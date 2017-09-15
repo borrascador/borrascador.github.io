@@ -10,6 +10,9 @@ class Project extends Component {
         <p>
           {this.props.text}
         </p>
+        <h5>
+          {this.props.tech}
+        </h5>
       </li>
     );
   }

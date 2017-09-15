@@ -21,12 +21,12 @@
 }
 
 .project {
-  background-color: rgb(1,1,1,0.5);
+  background-color: #222;
   color: #FFF;
   font-size: large;
   width: 400px;
   padding: 15px;
   margin: 0 auto;
   margin-bottom: 35px;
-
+  border-radius: 5px;
 }

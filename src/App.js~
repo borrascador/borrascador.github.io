@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import './App.css';
+import portrait from './portrait.jpg'
+import Header from './components/Header.js';
+import Project from './components/Project.js';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="user-page">
+        <Header />
+        <Project />
+      </div>
+    );
+  }
+}
+
+export default App;

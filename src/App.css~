@@ -1,0 +1,32 @@
+.user-page {
+  text-align: center;
+}
+
+.header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.portrait {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.project-list {
+  padding: 10px;
+  list-style: none;
+}
+
+.project {
+  background-color: rgb(1,1,1,0.5);
+  color: #FFF;
+  font-size: large;
+  width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+
+}

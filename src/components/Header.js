@@ -12,9 +12,6 @@ class Header extends Component {
           className="portrait" 
           src={portrait}
           alt="" />
-        <h3>
-          Here are some of my favorite projects so far
-        </h3>
       </div>
     );
   }

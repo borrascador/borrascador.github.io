@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 
 class Project extends Component {
   render() {
+    console.log(this.props);
     return (
       <li className="project">
-        <h3>
+        <a href={this.props.link}>
           {this.props.title}
-        </h3>
+        </a>
         <p>
           {this.props.text}
         </p>
-        <h6>
+        <h5>
           {this.props.tech}
-        </h6>
+        </h5>
       </li>
     );
   }

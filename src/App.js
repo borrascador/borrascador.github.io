@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import portrait from './portrait.jpg'
 import Header from './components/Header.js';
 import ProjectList from './components/ProjectList.js';
 

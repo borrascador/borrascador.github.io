@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Project from './Project.js';
 
 class ProjectList extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <ul className="project-list">
@@ -16,7 +13,7 @@ class ProjectList extends Component {
         <Project
           title="Reddit Clone"
           text="Reverse-engineered implementation of nested message board comments"
-          tech="Made with React"          
+          tech="Made with React"
           link="https://borrascador.github.io/reddit" />
         <Project
           title="OSSP Bot"
@@ -24,10 +21,10 @@ class ProjectList extends Component {
           tech="Made with Python and Tweepy"
           link="https://twitter.com/osspbot" />
         <Project
-          title="Griddage" 
-          text="Addicting grid-based card game scored like Cribbage for 1-4 players"
+          title="Griddage (offline only)" 
+          text="Multiplatform grid-based card game scored like Cribbage for 1-4 players"
           tech="Made with Python and Kivy"
-          link="" />
+          link="https://github.com/borrascador/griddage" />
         <Project
           title="Mark World"
           text="Experimental personal artist's gallery designed to display multimedia content and accept donations"

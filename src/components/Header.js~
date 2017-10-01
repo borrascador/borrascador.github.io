@@ -5,16 +5,15 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>
-          Code by Jan
-        </h1>
+        <a href="https://github.com/borrascador">
+          <h1>
+            Code by Jan
+          </h1>
+        </a>
         <img
           className="portrait" 
           src={portrait}
           alt="" />
-        <h3>
-          
-        </h3>
       </div>
     );
   }

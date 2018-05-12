@@ -6,6 +6,11 @@ class ProjectList extends Component {
     return (
       <ul className="project-list">
         <Project
+          title="Let's Chat"
+          text="Single-page chat site that allows users to delete message history"
+          tech="Made with Node.js, React, Redux, Webpack and jsonstore"
+          link="https://borrascador.github.io/chat" />
+        <Project
           title="Dime Drop Times"
           text="Straightforward personal blog optimized for mobile and desktop with dynamic content styling"
           tech="Made with Python and Django"
@@ -21,7 +26,7 @@ class ProjectList extends Component {
           tech="Made with Python and Tweepy"
           link="https://twitter.com/osspbot" />
         <Project
-          title="Griddage (offline only)" 
+          title="Griddage (offline only)"
           text="Multiplatform grid-based card game scored like Cribbage for 1-4 players"
           tech="Made with Python and Kivy"
           link="https://github.com/borrascador/griddage" />
@@ -30,7 +35,7 @@ class ProjectList extends Component {
           text="Experimental personal artist's gallery designed to display multimedia content and accept donations"
           tech="Made with Python, Django, and jQuery"
           link="https://markworld.pythonanywhere.com" />
-        <Project 
+        <Project
           title="Todo List"
           text="Sleek and stylish task list for the modern man"
           tech="Made with Node.js and React"

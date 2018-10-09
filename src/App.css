@@ -1,7 +1,3 @@
-body {
-  font-family: "Caudex";
-}
-
 .user-page {
   text-align: center;
 }
@@ -16,6 +12,7 @@ body {
   object-fit: cover;
   width: 200px;
   height: 200px;
+  max-width: 95%;
   border-radius: 50%;
 }
 
@@ -59,7 +56,7 @@ a:hover {
 }
 
 @media (min-width:320px) {
-  
+
   .portrait {
     width: 260px;
     height: 260px;
@@ -70,6 +67,7 @@ a:hover {
   }
 
 }
+
 @media (min-width:400px) {
 
   .portrait {
@@ -85,9 +83,9 @@ a:hover {
 
 @media (min-width:600px) {
 
-  .portrait {
+  /* .portrait {
     width: 300px;
     height: 300px;
-  }
+  } */
 
 }

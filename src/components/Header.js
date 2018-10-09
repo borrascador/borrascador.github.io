@@ -6,10 +6,12 @@ class Header extends Component {
     return (
       <div className="header">
         <h1>
-          Code by Jan
+          <a href="https://github.com/borrascador">
+            Code by Jan
+          </a>  
         </h1>
         <img
-          className="portrait" 
+          className="portrait"
           src={portrait}
           alt="" />
       </div>

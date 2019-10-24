@@ -1,17 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header.js';
-import ProjectList from './components/ProjectList.js';
+import React from 'react';
+import ProjectListPage from './components/ProjectListPage.js';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="user-page">
-        <Header />
-        <ProjectList />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <ProjectListPage />
+);
 
 export default App;

@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Project extends Component {
-  render() {
-    return (
-      <li className="project">
-        <a href={this.props.link}>
-          {this.props.title}
-        </a>
-        <p>
-          {this.props.text}
-        </p>
-        <h5>
-          {this.props.tech}
-        </h5>
-      </li>
-    );
-  }
-}
+const Project = ({
+  link, title, text, tech,
+}) => (
+  <li className="project">
+    <a href={link}>
+      {title}
+    </a>
+    <p>
+      {text}
+    </p>
+    <h5>
+      {tech}
+    </h5>
+  </li>
+);
 
 export default Project;

@@ -1,13 +1,13 @@
 import React from 'react';
-import { poetry } from './poetry';
+import { contact } from './contact';
 import { parseMdText } from './common';
 
-const PoetryPage = () => (
+const ContactPage = () => (
   <div className="center-column">
     <div className="text-column">
-      { parseMdText(poetry) }
+      { parseMdText(contact) }
     </div>
   </div>
 );
 
-export default PoetryPage;
+export default ContactPage;

@@ -4,18 +4,30 @@ Link: https://codepen.io/P1N2O/pen/pyBNzX
 */
 
 body {
-  margin: 0;
-  padding: 0;
-  font: helvetica;
-  font-family: sans-serif;
-	width: 100wh;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	max-width: 100vw;
 	height: 100vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(
+		-45deg,
+		rgb(123, 255, 70),
+		rgb(248, 147, 186),
+		rgb(70, 151, 218),
+		rgb(194, 233, 24)
+	);
 	background-size: 400% 1000%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+}
+
+#root {
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+	height: 100vh;
 }
 
 @-webkit-keyframes Gradient {
@@ -54,95 +66,85 @@ body {
 	}
 }
 
-.user-page {
-	text-align: center;
-  }
-  
-  .header {
+.center-column {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.text-column {
+	background-color: #00000033;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	white-space: pre-wrap;
+	width: 540px;
+	font-size: 1.08rem;
+}
+
+.header {
 	background-color: #222;
 	padding: 10px;
 	color: white;
-  }
-  
-  .portrait {
-	object-fit: cover;
-	width: 200px;
-	height: 200px;
-	max-width: 95%;
-	border-radius: 50%;
-  }
-  
-  .project-list {
-	padding: 10px;
-	margin: 0 auto;
-	list-style: none;
-  }
-  
-  .project {
-	background-color: #222;
-	color: #FFF;
-	font-size: large;
-	width: ;
-	max-width: 95%;
-	padding: 15px;
-	margin: 0 auto;
-	margin-bottom: 15px;
-	border-radius: 10px;
-  }
-  
-  h1 {
+	font-family: monospace;
+	text-align: left;
+}
+
+.header h1 {
 	margin: 10px;
-  }
-  
-  h3 {
-	margin: 10px;
-  }
-  
-  h5 {
-	padding: 0px;
-	margin: 0px;
-  }
-  
-  a {
+}
+
+h1 {
+	font-family: monospace;
+}
+
+h2 {
+	font-family: monospace;
+}
+
+h3 {
+	font-family: monospace;
+}
+
+h4 {
+	font-family: monospace;
+}
+
+hr {
+	border-top: 3px dashed white;
+	text-shadow: none;
+}
+
+a {
 	color: #FFF;
-  }
-  
-  a:hover {
+}
+
+a:hover {
 	text-decoration: none;
-  }
-  
-  @media (min-width:320px) {
-  
-	.portrait {
-	  width: 260px;
-	  height: 260px;
+}
+
+@media (min-width:0px) {
+
+	.text-column {
+		width: 320px;
 	}
-  
-	.project {
-	  width: 260px;
+
+}
+
+
+@media (min-width:320px) {
+
+	.text-column {
+		width: 100%;
 	}
-  
-  }
-  
-  @media (min-width:400px) {
-  
-	.portrait {
-	  width: 340px;
-	  height: 340px;
+
+}
+
+@media (min-width:540px) {
+
+	.text-column {
+		width: 480px;
 	}
-  
-	.project {
-	  width: 340px;
-	}
-  
-  }
-  
-  @media (min-width:600px) {
-  
-	/* .portrait {
-	  width: 300px;
-	  height: 300px;
-	} */
-  
-  }
-  
+
+}
